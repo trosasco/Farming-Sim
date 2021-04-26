@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DayController : MonoBehaviour
 {
-    private int day = 0;
+    public int day = 0;
     private bool bed = false;
     
     // Start is called before the first frame update
@@ -19,7 +19,7 @@ public class DayController : MonoBehaviour
     {
         if (bed)
         {
-            if (Input.GetKeyDown("Y"))
+            if (Input.GetKeyDown(KeyCode.Y))
             {
                 day += 1;
             }
