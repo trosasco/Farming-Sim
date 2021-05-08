@@ -25,6 +25,35 @@ public class PlantScript : MonoBehaviour
             dayPlanted = dc.day;
             age += 1;
         }
+
+        if (plantStage < age)
+        {
+            if (age == 0)
+            {
+                plantStage = age;
+                growPlant();
+            }
+            else if (age == 1)
+            {
+                plantStage = age;
+                growPlant();
+            }
+            else if (age == 2)
+            {
+                plantStage = age;
+                growPlant();
+            }
+            else if (age == 3)
+            {
+                plantStage = age;
+                growPlant();
+            }
+            else if (age == 4)
+            {
+                plantStage = age;
+                growPlant();
+            }
+        }
     }
 
     void growPlant()
