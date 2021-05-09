@@ -30,27 +30,27 @@ public class PlantScript : MonoBehaviour
         {
             if (age == 0)
             {
-                plantStage = age;
+                plantStage = 0;
                 growPlant();
             }
             else if (age == 1)
             {
-                plantStage = age;
+                plantStage = 1;
                 growPlant();
             }
             else if (age == 2)
             {
-                plantStage = age;
+                plantStage = 2;
                 growPlant();
             }
             else if (age == 3)
             {
-                plantStage = age;
+                plantStage = 3;
                 growPlant();
             }
             else if (age == 4)
             {
-                plantStage = age;
+                plantStage = 4;
                 growPlant();
             }
         }
